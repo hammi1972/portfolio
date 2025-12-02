@@ -1,0 +1,33 @@
+/* ربط الملف: تأكد من أن هذا الملف في نفس المجلد مثل index.html */
+
+/* تنسيق الجسم الرئيسي للصفحة */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* لون خلفية فاتح */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: right; /* محاذاة النص لليمين للغة العربية */
+}
+
+/* تنسيق رأس الصفحة */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* تنسيق قسم المشاريع */
+#projects {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
